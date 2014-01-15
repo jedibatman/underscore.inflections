@@ -1,4 +1,6 @@
-# underscore.inflections [![Build Status](https://secure.travis-ci.org/geetarista/underscore.inflections.png)](http://travis-ci.org/geetarista/underscore.inflections)
+# underscore.inflections (Forked for AMD-Compatibility)
+### Most of credit goes to [Robby Colvin](https://github.com/geetarista/underscore.inflections) for porting ActiveSupport::Inflector::Inflections
+#### I just needed to use it within Require.js ...
 
 Port of ActiveSupport::Inflector::Inflections for Underscore.js.
 
@@ -12,31 +14,10 @@ Note that right now, this only handles methods found in ActiveSupport::Inflector
 
 ## Setup
 
-### Browser
-
-Include both underscore.js and underscore.inflections on your page:
-
-```html
-<script src="underscore.js" type="text/javascript"></script>
-<script src="underscore.inflections.js" type="text/javascript"></script>
-```
-
-### Node.js
-
-First, install the mixin through npm:
-
-```bash
-npm install underscore.inflections
-```
-
-Require underscore.js and underscore.inflections:
-
 ```javascript
-var _ = require('underscore');
-_.mixin(require('underscore.inflections'));
+require('underscore.inflections');
 ```
 
-**Note**: When using underscore in Node's REPL, be sure to choose a variable other than `_`, as that is a special symbol used for showing the last return value.
 
 ## Usage
 

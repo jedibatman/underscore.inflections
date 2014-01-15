@@ -1,5 +1,5 @@
 {
-  "name": "underscore.inflections",
+  "name": "underscore.inflections-amd",
   "description": "Fork of underscore.inflections to be compatible with requirejs",
   "version": "0.3.1",
   "keywords": ["inflections", "inflector", "underscore", "underscore.string", "requirejs", "amd"],
